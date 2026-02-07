@@ -1,4 +1,4 @@
-# peomiz-automation
+# Automation Test Suites
 
 Test automation for **peomiz.prod** (Laravel backend), **piomiz-customer-app**, and **piomiz-vendor-app**.
 
@@ -121,3 +121,4 @@ Playwright coverage uses [monocart-coverage-reports](https://github.com/cenfun/m
 | [suites/e2e/README.md](suites/e2e/README.md) | E2E flows (customer, partner, full) |
 | [suites/integration/README.md](suites/integration/README.md) | PHPUnit integration tests |
 | [suites/regression/README.md](suites/regression/README.md) | Regression suite, feature coverage |
+| [../docs/AUTOMATION_TESTING.md](../docs/AUTOMATION_TESTING.md) | Automation overview (project docs) |
