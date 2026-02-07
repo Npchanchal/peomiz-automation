@@ -1,0 +1,28 @@
+{
+  "name": "peomiz-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test automation for peomiz.prod, piomiz-customer-app, piomiz-vendor-app",
+  "scripts": {
+    "suite:sanity": "playwright test suites/sanity --config=playwright.config.ts",
+    "suite:sanity:coverage": "COVERAGE=1 playwright test suites/sanity --config=playwright.coverage.config.ts",
+    "suite:e2e": "playwright test suites/e2e --config=playwright.config.ts",
+    "suite:e2e:coverage": "COVERAGE=1 playwright test suites/e2e --config=playwright.coverage.config.ts",
+    "suite:regression": "./scripts/run-regression.sh",
+    "suite:regression:coverage": "COVERAGE=1 playwright test suites/sanity suites/e2e suites/regression --config=playwright.coverage.config.ts",
+    "suite:integration": "cd ../peomiz.prod && php vendor/bin/phpunit --testsuite=Integration",
+    "suite:integration:coverage": "cd ../peomiz.prod && php vendor/bin/phpunit --testsuite=Integration --coverage-text --coverage-html=coverage-reports",
+    "test:sanity": "npm run suite:sanity",
+    "test:e2e": "npm run suite:e2e",
+    "test:regression": "npm run suite:regression",
+    "test:integration": "npm run suite:integration",
+    "test:all": "npm run suite:regression"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0",
+    "dotenv": "^16.3.1",
+    "monocart-coverage-reports": "^2.12.0",
+    "typescript": "^5.3.0"
+  }
+}

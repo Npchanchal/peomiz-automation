@@ -1,0 +1,11 @@
+{
+  "pincode": "560001",
+  "pincode_id": "1",
+  "address": "123 Test St",
+  "state": "Karnataka",
+  "city": "Bangalore",
+  "landmark": "Near Park",
+  "name": "Test Customer",
+  "phone": "9876543210",
+  "_comment": "Override via env: TEST_PINCODE_ID. Used by sanity, e2e, integration."
+}

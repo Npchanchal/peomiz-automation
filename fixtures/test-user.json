@@ -1,0 +1,9 @@
+{
+  "phone": "9876543210",
+  "email": "test-customer@peomiz.test",
+  "name": "Test Customer",
+  "otp": "1234",
+  "verification_code": "1234",
+  "user_id": "",
+  "_comment": "Override via env: TEST_CUSTOMER_PHONE, TEST_OTP, TEST_CUSTOMER_USER_ID. Used by sanity, e2e, integration."
+}

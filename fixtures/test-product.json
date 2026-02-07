@@ -1,0 +1,10 @@
+{
+  "product_id": "1",
+  "service_slug": "carpenter-9jtmt",
+  "sku": "SKU001",
+  "code": "8471",
+  "selling_price": 1000,
+  "premium_price": 1200,
+  "quantity": 1,
+  "_comment": "Override via env: TEST_PRODUCT_ID, SERVICE_SLUG. Used by sanity, e2e, integration."
+}

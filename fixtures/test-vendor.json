@@ -1,0 +1,12 @@
+{
+  "phone": "9999999998",
+  "otp": "1234",
+  "vendor_user_id": "",
+  "vendor_id": "",
+  "ref_id": "",
+  "first_name": "Test",
+  "last_name": "Partner",
+  "service_start_otp": "1234",
+  "service_end_otp": "1234",
+  "_comment": "Override via env: TEST_VENDOR_PHONE, TEST_VENDOR_OTP, TEST_VENDOR_ID, TEST_VENDOR_USER_ID, TEST_VENDOR_REF_ID, TEST_SERVICE_START_OTP, TEST_SERVICE_END_OTP. Used by sanity, e2e, integration."
+}

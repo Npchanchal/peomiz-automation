@@ -1,0 +1,5 @@
+{
+  "version": "1",
+  "description": "Master fixture index. Load test-user, test-vendor, test-address, test-product. Env vars override JSON values. Fixtures are read-only; tests use unique IDs (Date.now()) for isolation.",
+  "files": ["test-user.json", "test-vendor.json", "test-address.json", "test-product.json", "codeigniter-api.json"]
+}
